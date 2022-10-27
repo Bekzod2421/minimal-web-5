@@ -1,0 +1,352 @@
+@media screen and (max-width: 1000px) {
+	.header {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+
+	.site .get p {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+
+	.site .brand {
+		padding-left: 30px;
+		padding-right: 30px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		row-gap: 20px;
+	}
+
+	.set,
+	.design,
+	.track {
+		width: calc(50% - 10px);
+	}
+
+	.site .img {
+		max-width: none;
+		max-height: none;
+		text-align: center;
+	}
+
+	.site .brand p {
+		max-width: none;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+
+	.site .project {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+
+	.site .team .inner {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+
+	.site .team .inner .img00 {
+		max-width: none;
+	}
+
+	.site .team .inner .teamnates {
+		display: flex;
+		flex-wrap: wrap;
+		row-gap: 20px;
+		justify-content: center;
+	}
+
+	.teamnates .pro {
+		width: calc(33.3% - 14px);
+	}
+
+	.site .team .inner .img00 img {
+		object-fit: cover;
+		height: auto;
+	}
+
+	.jr {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		padding-left: 30px;
+		padding-right: 30px;
+		column-gap: 60px;
+	}
+
+	.site .article .pro {
+		padding: 0;
+		display: block;
+	}
+
+	.site .article .pro p {
+		max-width: none;
+	}
+
+	.site .article .julu::after {
+		right: -32px;
+	}
+
+	.site .intouch .inner .about {
+		grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	}
+}
+
+@media screen and (max-width:850px) {
+	.site .project .projects .img0 {
+		max-width: none;
+		max-height: none;
+	}
+
+	.site .project .projects .img0 img {
+		object-fit: cover;
+	}
+
+	.site .intouch .inner .about {
+		padding-left: 30px;
+		padding-right: 30px;
+		column-gap: 20px;
+	}
+}
+
+.burger {
+	position: absolute;
+	z-index: 999999;
+	right: 40px;
+	top: 40px;
+	display: none;
+	flex-direction: column;
+	row-gap: 6px;
+	cursor: pointer;
+}
+
+.burger span {
+	width: 40px;
+	height: 5px;
+	background-color: black;
+	border-radius: 5px;
+}
+
+@media screen and (max-width:680px) {
+	.site .obses .our {
+		max-width: none;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+}
+
+@media screen and (max-width:650px) {
+	.site .img {
+		padding: 50px 0;
+	}
+}
+
+@media screen and (max-width:600px) {
+	.teamnates .pro {
+		width: calc(50% - 10px);
+	}
+
+	.site .project .projects {
+		grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	}
+
+	.site .form .inner form {
+		max-width: none;
+	}
+
+	.site .form .inner {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+}
+
+@media screen and (max-width:520px) {
+	.burger {
+		display: flex;
+	}
+
+	.site .menu {
+		display: none;
+	}
+
+	.site .obses {
+		padding-top: 40px;
+	}
+
+	.site .x img {
+		width: 30px;
+		height: 30px;
+		margin-top: -15px;
+	}
+
+	.site .obses p {
+		padding-bottom: 40px;
+	}
+
+	.site .how {
+		padding-top: 40px;
+	}
+
+	.site .brand p {
+		margin-bottom: 40px;
+	}
+
+	.site .project {
+		padding-top: 40px;
+	}
+
+	.site .team {
+		padding-top: 40px;
+		padding-bottom: 60px;
+	}
+
+	.site .article .pro p {
+		font-size: 20px;
+	}
+
+	.site .article {
+		padding-bottom: 60px;
+	}
+
+	.site .intouch {
+		padding-top: 40px;
+	}
+
+	.site .intouch .social .img003 {
+		margin-top: 40px;
+	}
+
+	.site .form {
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+}
+
+@media screen and (max-width: 450px) {
+
+	.site .obses .our,
+	.site .get p,
+	.site .brand,
+	.site .brand p,
+	.jr {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.site .obses .our .title.title-top {
+		font-size: 34px;
+	}
+
+	.site .project .projects .img0 {
+		max-height: 250px;
+		height: 100%;
+	}
+
+	.site .intouch .lmail .img002 {
+		margin-top: 40px;
+	}
+}
+
+@media screen and (max-width: 425px) {
+
+	.site .team .inner .itm2,
+	.site .team .inner .itm {
+		column-gap: 6px;
+	}
+}
+
+@media screen and (max-width: 375px) {
+
+	.brand,
+	.site .brand p {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.site .img {
+		margin-bottom: 20px;
+	}
+
+	.jr {
+		column-gap: 35px;
+	}
+
+	.site .article .julu::after {
+		right: -20px;
+	}
+
+	.site .article .imgqq {
+		margin-bottom: 40px;
+	}
+
+	.site .article {
+		padding-top: 40px;
+	}
+
+	.site .form .inner form .input {
+		padding: 15px 20px;
+	}
+}
+
+@media screen and (max-width: 340px) {
+	.site .obses .our .title.title-top {
+		line-height: 35px;
+		font-size: 30px;
+	}
+
+	.site .get p {
+		font-size: 16px;
+	}
+
+	.site .get {
+		padding-bottom: 40px;
+	}
+
+	.set,
+	.design,
+	.track {
+		width: 100%;
+	}
+
+	.site .brand p {
+		margin-bottom: 10px;
+	}
+
+	.site .project .projects .img0 {
+		max-height: 150px;
+	}
+
+	.site .project {
+		padding-bottom: 50px;
+	}
+
+	.teamnates .pro {
+		width: 100%;
+	}
+
+	.jr {
+		display: block;
+	}
+
+	.site .article {
+		padding-bottom: 20px;
+	}
+
+	.site .article .pro {
+		margin-bottom: 30px;
+	}
+
+	.site .article .julu::after {
+		display: none;
+	}
+
+	.site .form .inner form {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.site .title-how {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}
